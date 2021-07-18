@@ -38,7 +38,7 @@ var textSet = [
     [minuteText, minuteList],
     [secondsText, secondsList]
 ];
-
+console.log(textSet)
 window.onload = function () {
     init();
     // 每隔100ms获得 当前时间 更新页面时间显示
@@ -129,7 +129,7 @@ function initStyle() {
     // 利用取出dom元素
     var label = document.getElementsByClassName('label');
     for (var i = 0; i < label.length; i++) {
-        label[i].style.color = '#4d4d4d';
+        label[i].style.color = 'rgb(248, 212, 8)';
     }
     // 利用二维数组存放dom元素的数组
     // for (var i = 0 ; i < textSet.length ; i ++) {
